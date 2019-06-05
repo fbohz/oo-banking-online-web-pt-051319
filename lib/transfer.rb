@@ -10,7 +10,7 @@ class Transfer
   end 
     
   def valid?
-    # no need to set if else jsut state boolean
+    # no need to set if-else jsut state boolean
     @sender.valid? && @receiver.valid? 
   end 
   
