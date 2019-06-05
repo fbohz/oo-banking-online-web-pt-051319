@@ -10,7 +10,8 @@ class Transfer
   end 
     
   def valid?
-    @sender.valid? && @receiver.valid? ? true : false 
+    # no need to set if else jsut state boolean
+    @sender.valid? && @receiver.valid? 
   end 
   
   def execute_transaction
